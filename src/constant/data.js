@@ -54,6 +54,11 @@ export const menuItems = [
     icon: "heroicons:chat-bubble-left-right",
     link: "comentarios",
   },
+  {
+    title: "Mensajes",
+    icon: "heroicons:chat-bubble-left-right",
+    link: "mensajes",
+  },
 
 ];
 
@@ -97,6 +102,11 @@ export const menuItemsAdministrador = [
     title: "Comentarios",
     icon: "heroicons:chat-bubble-left-right",
     link: "comentarios",
+  },
+  {
+    title: "Mensajes",
+    icon: "heroicons:chat-bubble-left-right",
+    link: "mensajes",
   },
   
   

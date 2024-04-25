@@ -61,6 +61,9 @@ const ComentariosBorrar = lazy(() => import("./pages/comentarios/borrar"));
 
 const Historial = lazy(() => import("./pages/historial"));
 
+const Mensajes = lazy(() => import("./pages/mensajes"));
+const MensajesEnviar = lazy(() => import("./pages/mensajes/enviar"));
+
 const NoPage = lazy(() => import("./pages/404"));
 import Loading from "@/components/Loading";
 
@@ -141,6 +144,9 @@ function App() {
           <Route path="comentarios/borrar" element={<ComentariosBorrar />} />
 
           <Route path="historial" element={<Historial />} />
+
+          <Route path="mensajes" element={<Mensajes />} />
+          <Route path="mensajes/enviar" element={<MensajesEnviar />} />
 
           <Route path="*" element={<Navigate to="/404" />} />
         </Route>
